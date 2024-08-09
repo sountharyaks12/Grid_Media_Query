@@ -1,0 +1,514 @@
+.main{
+    background-image: linear-gradient(to top,rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%) ,url(./WhatsApp\ Image\ 2024-07-15\ at\ 10.27.03\ AM.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+.signup{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 15px;
+    width: 100%;
+    color: white;
+
+}
+#login{
+    margin-top: 10px;
+    color: white;
+    padding-right: 20px;
+}
+.b1{
+    background: transparent;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border:1px solid white;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    /* border: 5px solid black; */
+}
+#Los-Angeles-icon{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: white;
+    color: black;
+    /* width: 10%; */
+    padding: 10px;
+    cursor: pointer;
+    border-radius:5px ;
+    /* border: 1px solid black; */
+}
+#Los-Angeles-icon>#one{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+#Los-Angeles-icon>#two{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#Los-Angeles{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 7px;
+    justify-content: center;
+}
+#search-content{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+.input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    padding: 10px 10px 10px 45px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+#search-icon{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top:20px;
+    left: 20px;
+    padding-left: 10px;
+}
+#searchButton{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 10%;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid red;
+}
+.grid-starting{
+    margin: 0;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid-whole{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows:auto auto ;
+    gap: 5px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    background-color: white;
+    text-align:start;
+}
+.g11{
+    display: grid;
+    grid-column:1/2;
+}
+.g12{
+    display: grid;
+    margin-left: 10px;
+    grid-column: 2/4;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    background-color: white;
+    text-align: start;
+}
+.g21{
+    display: grid;
+    grid-column: 1/2;
+}
+.g22{
+    display: grid;
+    margin-left: 10px;
+    grid-template-columns: 2/4;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    background-color: white;
+    text-align: start;
+}
+.g31{
+    display: grid;
+    grid-column: 1/2;
+}
+.g32{
+    display: grid;
+    margin-left: 10px;
+    grid-column: 2/4;
+}
+.grid4{
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    grid-template-rows: auto;
+    background-color: white;
+    text-align: start;
+}
+.g41{
+    display: grid;
+    grid-column: 1/2;
+}
+.g42{
+    display: grid;
+    margin-left: 10px;
+    grid-column: 2/4;
+}
+.grid5{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    background-color: white;
+    text-align: start;
+}
+.g51{
+    display: grid;
+    grid-column: 1/2;
+}
+.g52{
+    display: grid;
+    margin-left: 10px;
+    grid-column: 2/4;
+}
+.grid6{
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: white;
+    grid-template-columns: auto auto auto;
+}
+.grid6>.div1{
+    grid-column: 2/4;
+    grid-row: 1;
+}
+.grid6>.div2{
+    grid-column: 1/4;
+    grid-row: 2;
+    text-align: center;
+    margin-left: 10px;
+}
+@media screen and (max-width:480px){
+    .main{
+        background-image: linear-gradient(to top,rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%) ,url(./WhatsApp\ Image\ 2024-07-15\ at\ 10.27.03\ AM.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+    }
+    .signup{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 15px;
+        width: 80%;
+        color: white;
+        padding: 20px;
+    }
+    #login{
+        margin:10px 30px 10px 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+    }
+    .b1{
+        background: transparent;
+        padding: 10px;
+        color: white;
+        
+        border:1px solid white;
+        margin: 0 10px 10px 0;
+    }
+    .logo{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .logo>img{
+        height: 90px;
+        width: 99px;
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+        font-size: 18px;
+        padding: 10px;
+    }
+    .center{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 5px 0 0 0;
+    }
+    #Los-Angeles-icon{
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        background-color: white;
+        color: black;
+        padding: 9px;
+        cursor: pointer;
+        border-radius:5px ;
+    }
+    #Los-Angeles-icon>#one{
+        position: absolute;
+        top: 12px;
+        left: 10px;
+    }
+    #Los-Angeles-icon>#two{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    #Los-Angeles{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 7px;
+        justify-content: center;
+    }
+    #search-content{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        /* width: 70%; */
+        justify-content: center;
+    }
+    .input{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
+        margin-top:-5px ;
+        padding: 9px 10px 10px 40px;
+        border-radius: 5px;
+        border: 1px solid white;
+    }
+    #search-icon{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top:15px;
+        left: 15px;
+        padding-left: 10px;
+    }
+    #searchButton{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        width: 10%;
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        border: 1px solid red;
+    }
+    .grid-starting>h1,div{
+        text-align: center;
+    }
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+    }
+    .grid-whole{
+        margin: 0 10px;
+        display: grid;
+        grid-template-columns: auto ;
+        grid-auto-rows:auto auto auto auto auto auto;
+        gap: 10px;
+    }
+    .grid1{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        background-color: white;
+        border: 1px solid black;
+        border-radius:5px;
+    }
+    .g11{
+        display: grid;
+        grid-row: 1;
+        grid-column:1/4;
+    }
+    .g11>img{
+        height: 300px;
+        width: 100%;
+    }
+    .g12{
+        display: grid;
+        grid-column: 1/4;
+        grid-row: 2;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .grid2{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto;
+        background-color: white;
+        text-align: center;
+        border: 1px solid black;
+        border-radius:5px;
+        margin-top: 10px;
+    }
+    .g21{
+        display: grid;
+        grid-row: 1;
+        grid-column: 1/4;
+    }
+    .g21>img{
+        height: 300px;
+        width: 100%;
+    }
+    .g22{
+        display: grid;
+        grid-row:2 ;
+        text-align: center;
+        margin-bottom: 10px;
+        grid-template-columns: 1/4;
+    }
+    .grid3{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        background-color: white;
+        text-align: center;
+        border: 1px solid black;
+        border-radius:5px ;
+    }
+    .g31{
+        display: grid;
+        grid-row: 1;
+        grid-column: 1/4;
+    }
+    .g31>img{
+        height: 300px;
+        width: 100%;
+    }
+    .g32{
+        display: grid;
+        grid-row: 2;
+        text-align: center;
+        margin-bottom: 10px;
+        grid-column: 1/4;
+    }
+    .grid4{
+        display: grid;
+        grid-template-columns:auto auto;
+        grid-template-rows: auto auto;
+        background-color: white;
+        text-align: center;
+        border: 1px solid black;
+        border-radius:5px ;
+    }
+    .g41{
+        display: grid;
+        grid-row: 1;
+        grid-column: 1/4;
+    }
+    .g41>img{
+        height: 300px;
+        width: 100%;
+    }
+    .g42{
+        display: grid;
+        grid-row: 2;
+        text-align: center;
+        margin-bottom: 10px;
+        grid-column: 1/4;
+    }
+    .grid5{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        background-color: white;
+        text-align: center;
+        border: 1px solid black;
+        border-radius:5px ;
+    }
+    .g51{
+        display: grid;
+        grid-row: 1;
+        grid-column: 1/4;
+    }
+    .g51>img{
+        height: 300px;
+        width: 100%;
+    }
+    .g52{
+        display: grid;
+        grid-row: 2;
+        text-align: center;
+        margin-bottom: 10px;
+        grid-column: 1/4;
+    }
+    .grid6{
+        display: grid;
+        grid-template-rows: auto auto auto;
+        background-color: white;
+        grid-template-columns:  auto auto;
+        border: 1px solid black;
+        border-radius:5px ;
+    }
+    .grid6>.div1{
+        grid-column: 1/4;
+        grid-row: 1;
+    }
+    .grid6>.div2{
+        grid-column: 1/4;
+        grid-row: 2;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
